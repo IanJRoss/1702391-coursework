@@ -84,24 +84,26 @@ main {
 .first-half {
   float: left;
   width: 50%;
-  
+
 }
 .first-half img {
   border-radius: 50%;
-  width: 400px;
-  height: 350px;
+  width: 80%;
+  height: 80%;
   padding-bottom: 10px;
 }
 .first-half p {
- width: 450px;
-
-
+ width: 80%;
 }
 .second-half {
   float: right;
   width: 50%;
+
 }
 
+.second-half a {
+  height: 400px;
+}
 
 
 
