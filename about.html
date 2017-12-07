@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--Code for head section of page/linking stylesheets/title of pages -->
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
@@ -9,72 +10,91 @@
     <link href="https://fonts.googleapis.com/css?family=Duru+Sans" rel="stylesheet">
     <title>Ian Ross</title>
   </head>
+<!-- END OF HEAD -->
 
+<!--This is the code for the nav bar used across all webpoages -->
   <body>
-    <header class = "CV-header">
+   <div id="nav">
+     <ul>
+       <img class="img-circle" src="profile.JPG" alt="a circular image of ian kicking a ball">
+       <h1>Ian James Ross</h1>
+       <h3>Robert Gordon Unversity</h3>
+       <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+       <li><a class="active"  href ="about.html"><i class="material-icons">assignment</i>CV</a></li>
+       <li><a href ="contact.html"> <i class="material-icons">perm_phone_msg</i>Contact</a></li>
+       <li><a href ="projects.html"><i class="material-icons">folder</i>Projects</a></li>
+      </ul>
+    </div>
+<!--END OF NAV-->
 
-      <h1>  I a n  |  J a m e s   | R o s s </h1>
 
-    </header>
 
-        <div id="nav">
+   <h1>Curriculum Vitae</h1>
 
+<!--beginning of main section... which is the body minus the 15% the nav uses + 5% for spacing.-->
+   <main>
+<!-- declaring first vertical half (left) of page. -->
+     <div class="first-half">
+       <section>
+         <h2>Work Experience</h2>
+         <ul> <li> <h3> The Pentland Hotel </h3> </li>
+           <p>I worked as a barman in the Pentland Hotel, Thurso for Mackay's Hotel Company Ltd.</p>
+           <li>2015 - 2017</li>
+         </ul>
+       </section>
+
+
+<!-- SECTION FOR EDUCATION -->
+       <section>
+         <h2>Education</h2>
          <ul>
-           <img class="img-circle" src="profile.JPG" alt="a circular image of ian kicking a ball">
-           <h1>Ian James Ross</h1>
-           <h3>Robert Gordon Unversity</h3>
-                        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-                        <li><a class="active"  href ="about.html"><i class="material-icons">assignment</i>CV</a></li>
-                        <li><a href ="contact.html"> <i class="material-icons">perm_phone_msg</i>Contact</a></li>
-                        <li><a href ="projects.html"><i class="material-icons">folder</i>Projects-</a></li>
+           <article>
+             <h3>Robert Gordon University</h3>
+             <p>I am currently in my first year of a BSC Hons Computer Science degree.</p>
+           </article>
+           <article>
+             <h3> North Highland College </h3>
+             <p>I attended NHC and acheieved an HNC in Computing, completing the following modules...</p>
+             <li>Configuring a Desktop Operating System</li>
+             <li>Professionalism & Ethics in Computing</li>
+             <li>E-Commerce: Publishing Websites</li>
+            <li>Team Working in Computing</li>
+            <li>Multi-User Operating Systems</li>
+            <li>Introduction to Software Development</li>
+            <li>Databases & MySQL</li>
+          </article>
+          <article>
+            <h3> Thurso High School</h3>
+            <p>I attended Thurso High School where I achieved Higher qualifications in...</p>
+            <li>Mathematics</li>
+            <li>Computer Science</li>
+            <li>English</li>
+            <li>Physical Education</li>
+            <li>Modern Studies</li>
+            <li>Religious Studies</li>
           </ul>
-       </div>
- <h1>Curriculum Vitae</h1>
-<main>
-  <div class="first-half">
-  <h2>Work Experience</h2>
-  <ul> <li> <h3> The Pentland Hotel </h3> </li>
-  <p>I worked as a barman in the Pentland Hotel, Thurso for Mackay's Hotel Company Ltd.</p>
-  <li>2015 - 2017</li>
-</ul>
+        </article>
+      </section>
+    </div>
 
 
-<h2>Education</h2>
-<ul> <li> <h3>Robert Gordon University</h3> </li>
-<p>I am currently in my first year of a BSC Hons Computer Science degree.</p>
 
 
-<ul> <li> <h3> North Highland College </h3> </li>
-<p>I attended NHC and acheieved an HNC in Computing, completing the following modules...</p>
-<li>Configuring a Desktop Operating System</li>
-<li>Professionalism & Ethics in Computing</li>
-<li>E-Commerce: Publishing Websites</li>
-<li>Team Working in Computing</li>
-<li>Multi-User Operating Systems</li>
-<li>Introduction to Software Development</li>
-<li>Databases & MySQL</li>
-</ul>
+<!-- SPLITTING PAGE INTO 2 VERTICAL HALVES -->
 
 
-<ul> <li> <h3> Thurso High School</h3> </li>
-<p>I attended Thurso High School where I achieved Higher qualifications in...</p>
-<li>Mathematics</li>
-<li>Computer Science</li>
-<li>English</li>
-<li>Physical Education</li>
-<li>Modern Studies</li>
-<li>Religious Studies</li>
-</ul>
-
-</div>
-
-<div class="second-half">
-  <h2>Personal Statement</h2>
-  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</div>
-
-
-</main>
+    <div class="second-half">
+      <h2>Personal Statement</h2>
+      <p>
+        My passion for computing technology has also been influenced by listening to talks from professionals in the field. During a visit to a University open day it was exciting to hear about projects and ideas that are currently in development, of which one day I hope to be a part of, ultimately making things easier for the modern world.
+        I was the Course Representative for HNC Computing at the North Highland College UHI. In this role I attend meetings with the Course Tutors and fellow Course Representatives from the wider department. My objectives during the meetings are to relay feedback on the course, discuss areas of the course’s strengths and weaknesses, discuss college community issues and to ensure that previous actions are followed up. I volunteered for this role as I am ultimately aiming to work at a management level; I felt this opportunity would give me great experience in communicating in a professional capacity. I would ideally like to work amongst a team of programmers, all contributing to complete projects together. I believe learning techniques to be able to communication across different roles is vital to help everyone understand the main objective, a skill I feel is vital to implement in my professional career.
+        I have been playing club football from the age of seven, committing my time to a total of ten teams over the years. During this time I frequently carried out the role of team captain, which is testament to my leadership and team working skills. I have been presented with many individual awards for my performance including The Wick Academy Youth Endeavour Award, which was an honour considering the talented people I have worked with over the years.
+        I believe that a successful team takes advantage of the individual team member’s strengths and compensates for their weaknesses. I am very friendly and approachable and have contributed to the successful completion of previous group projects I have been party to. I have the confidence and motivation it takes to work on my own which is attributed to my inspiration, such as my family and friends who are very supportive of me and want me to succeed. Coming from a big family, I have been brought up to appreciate the hard work of others and how valuable it is to be independent.
+        The good moral/ethical principles taught by the course I am studying reflect my ambitions for my career and future professional development. These values are in alignment with professional bodies such as the British Computer Society, and what they encourage.
+     </p>
+   </div>
+ </main>
+<!-- END OF MAIN SECTION OF CONTENT -->
 
 
 
@@ -83,8 +103,7 @@
 
 
 
-
-
+<!-- footer of page -->
     <footer>
     &copy; 2017 Ian Ross @ RGU
     </footer>
